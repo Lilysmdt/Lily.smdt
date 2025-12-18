@@ -1,0 +1,180 @@
+html, body{
+    margin: 7px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serof;
+}
+nav, header, section, footer{
+    width: 1450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav.navbar a{
+    color : black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav.navbar a:hover{
+    color: red;
+    font-weight: bold;
+    border-bottom: 3px solid red;
+}
+
+
+footer h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-size: 10pt;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul{
+    list-style:none ;
+    display: flex;
+    flex-direction: row;
+    gap: 500px;
+}
+
+nav ul a{
+    text-decoration:none ;
+    color: black;
+    font-weight: bold;
+}
+
+h2{
+    color: black;
+}
+
+.img-logo{
+    width: 70px;
+    height:auto;
+}
+
+.img-presentation {
+  width: 1150px; 
+  display: block;
+  margin: 70px;
+  margin-left: 145px;
+}
+
+.img-une {
+  width: 1300px; 
+  display: block;
+  margin: 20px;
+  margin-left: 45px;
+}
+
+.img-1eraffiche{ 
+    width: 1450px; 
+    height: auto; 
+    margin-bottom:40px;
+} 
+
+.img-transition{ 
+    width: 800px; 
+    height: auto; 
+    margin-bottom:40px;
+    margin-left: 318px;
+} 
+
+.img-2emeaffiche{ 
+    width: 1450px; 
+    height: auto; 
+    margin-bottom:5px;
+} 
+
+.img-3emeaffiche{ 
+    width: 1450px; 
+    height: auto; 
+    margin-bottom:5px;
+}
+
+.img-news{ 
+    width: 1100px; 
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.img-basdepage{ 
+    width: 1450px; 
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+}
+
+.right-side{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.right-side ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 50;
+}
+
+.right-side a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.right-side{
+    position: fixed;
+    top: 60px;
+    left: 20px;
+}
+
+.Accueil{
+    margin-bottom: 5px;
+}
+
+#section1 p{
+    margin-bottom: 10px;
+}
+
+.contact-title {
+    text-align: center;
+    margin-bottom: 30px; /* espace sous "Contact" */
+}
+
+.contact-text {
+    margin-bottom: 15px;
+}
+
+
+.nav-bottom a {
+    padding: 12px 30px;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+    padding: 12px 30px;
+}
+
+
+
+
